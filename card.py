@@ -45,6 +45,13 @@ class Card:
         self.value = value
         self.face_up = face_up
         
+    # flip the card
+    def flip():
+        if self.face_up:
+            self.face_up = False
+        else:
+            self.face_up = True
+        
     # swap the value of an Ace
     def swap_ace_value():
         
